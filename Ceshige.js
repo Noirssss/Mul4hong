@@ -8,7 +8,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^http[s]?:\/\/learnywhere.cn\/api\/qt\/activity\/*.+$ url script-response-body cn.js
+^http[s]?:\/\/learnywhere.cn\/api\/qt\/activity\/*.+$ url script-response-body Ceshige.js
 [mitm] 
 hostname = *.cn.*
 *******************************
