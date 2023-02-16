@@ -1,5 +1,5 @@
 [rewrite_local]
-^http[s]?:\/\/121.43.19.216\/v3\/course\/episodes\/*.+$ url script-response-body 43.js
+^http[s]?:\/\/121.43.19.216\/v3\/course\/episodes\/*.+$ url script-response-body https://raw.githubusercontent.com/Noirssss/Mul4hong/master/43.js
 [mitm] 
 hostname = *.43.*
 *
